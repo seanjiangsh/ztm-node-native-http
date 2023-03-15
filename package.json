@@ -1,0 +1,13 @@
+{
+  "name": "ztm-node-native-http",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.0",
+    "nodemon": "^2.0.21"
+  }
+}

@@ -1,0 +1,16 @@
+### /friends
+GET http://localhost:3000/friends HTTP/1.1
+### /friends
+GET http://localhost:3000/friends/1 HTTP/1.1
+### /friends
+POST http://localhost:3000/friends/1 HTTP/1.1
+Content-Type: "application/json"
+
+{ "id": 3, "name": "Sean"}
+
+
+### /page
+GET http://localhost:3000/page HTTP/1.1
+
+### /whatever
+GET http://localhost:3000/whatever HTTP/1.1
